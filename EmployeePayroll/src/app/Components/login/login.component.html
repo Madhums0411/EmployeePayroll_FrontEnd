@@ -1,0 +1,51 @@
+<div class="maindiv" fxLayout="column" fxLayoutAlign="center center">
+    <mat-toolbar>
+        <div class="menu" fxLayout="column" fxLayoutAlign="center center">
+            <div>
+                <span style="color:rgba(0, 128, 0, 0.582) ;" class="h1">EMPLOYEE</span>
+            </div>
+            <div>
+                <span style="color:rgb(4, 4, 40) ;" class="h1">Payroll</span>
+            </div>
+        </div>
+    </mat-toolbar>
+</div>
+<div class="middlecontainer" fxLayout="column" fxLayoutAlign="center center">
+    <div class="innerdiv" fxLayout="row" fxLayoutAlign="center center">
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <div>
+
+                <div fxLayout="row" fxLayoutAlign="center center">
+                    <h1 style="font-size: 20px;">Login</h1>
+                </div>
+                <div fxLayout="row" fxLayoutAlign="center center">
+                    <h2 style="font-size: 20px;">Use your Employee payroll Account</h2>
+                </div>
+            </div>
+    
+    
+            <div>
+                <mat-form-field appearance="outline" class="email">
+                    <mat-label>Email</mat-label>
+                    <input matInput placeholder="Email" formControlName="email">
+                    <mat-error>Email is required</mat-error>
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="password">
+                    <mat-label>Password</mat-label>
+                    <input matInput placeholder="Password" formControlName="password">
+                    <mat-error>Password is required</mat-error>
+                </mat-form-field>
+            </div>
+            <div fxLayout="row" fxLayoutAlign="space-between center" class="Forgot">
+                <button mat-button color="primary" routerLink="/forgot">Forgot Password?</button>
+            </div>
+            <br /><br />      
+            <div fxLayout="row" fxLayoutAlign="space-between center" class="next">
+                <button mat-button color="primary" routerLink="/signin">Create account</button>
+                <button mat-flat-button color="primary" >Next</button>
+            </div>
+        </form>
+    </div>
+</div>

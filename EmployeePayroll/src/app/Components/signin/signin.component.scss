@@ -1,0 +1,72 @@
+.maindiv {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    border: 1px solid gainsboro;
+}
+
+.middlecontainer{
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px ;
+    margin-top: 2%;
+    margin-left: 32%;
+    margin-right: 32%;
+    border:1px solid rgb(189, 186, 186);
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+// .innerdiv{
+//     height: 100%;
+//     width: 70%;
+//     border: 1px solid gainsboro;
+// }
+
+.outer{
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px ;
+    margin-top: 2.5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border:1px solid rgb(189, 186, 186);
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.username{
+
+    width: 100%;
+}
+.signin{
+    margin-left: 8px;
+    min-width: 120px;
+}
+.btn-layout{
+border: 1px solid white;
+width: 100%;
+display: flex;
+position: relative;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.password{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}

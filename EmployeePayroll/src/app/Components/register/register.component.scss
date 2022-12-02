@@ -1,0 +1,254 @@
+
+.maindiv {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    border: 1px solid gainsboro;
+}
+
+.menu {
+    height: 100%;
+    width: 60%;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.h2 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.form1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left: 20px;
+}
+
+.t1{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.middlecontainer{
+    height: 110vh;
+    width: 100vw;
+    border:0px solid black ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.innerdiv{
+    height: 100%;
+    width: 70%;
+    border: 1px solid gainsboro;
+}
+.line1{
+    height: 10%;
+    width: 85%;
+    border: 0px solid red;
+}
+.mid1{
+    height: 90%;
+    width: 100%;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    height: 100%;
+    width: 20%;
+    border: 0px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.left1{
+    height:10%;
+    width:60%;
+    border: 0px solid green;
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+}
+.right{
+    height: 100%;
+    width:100%;
+    display: flex;
+    border: 0px solid yellow;
+    flex-direction: column;
+}
+.right1{
+    height:10%;
+    width:100%;
+    border: 0px solid green;
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+}
+
+.right3{
+    height:10%;
+    width:100%;
+    border: 0px solid green;
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+}
+.field6{
+    height: 80px;
+    width: 700px;
+    font-size: 12px;
+}
+.g1{
+    width:90%;
+    height:100%;
+    border: 0px solid gainsboro;
+    position: relative;
+    top: 10px;
+}
+
+.field2 {
+    height: 15px;
+    width: 300px;
+    border: 0px solid gainsboro;
+    border-radius: 5px;
+
+}
+.feild4 {
+    height: 40px;
+    width: 40px;
+    border: 0px solid red;
+}
+.radio{
+    height: 100%;
+    width: 80px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.profile{
+    height:80%;
+    width:100%;
+    border: 0px solid green;
+    display: flex;
+justify-content: flex-start;
+}
+.gender{
+    height: 100%;
+    width: 80px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dept{
+    height: 100%;
+    width: 75px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dept1{
+    height: 100%;
+    width: 90px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dept2{
+    height: 100%;
+    width: 100px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dept3{
+    height: 100%;
+    width: 115px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dept4{
+    height: 100%;
+    width: 75px;
+    border: 0px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right2{
+    height:20%;
+    width:100%;
+    border: 0px solid green;
+}
+.g2{
+    width:90%;
+    height:100%;
+    border: 0px solid red;
+    position: relative;
+    top: 80px;
+}
+.field1 {
+    height: 100%;
+    width: 110%;
+    border: 0px solid gainsboro;
+    bottom: 30px;
+}
+.field3{
+    height: 40px;
+    width: 700px;
+    padding-bottom: 50px;
+    align-items: baseline;
+    
+}    
+.notes1{
+    height:20%;
+    width:100%;
+    border: 0px solid green;
+    display: flex;
+    align-items: flex-end;
+
+
+}
+.button1 {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 10px;
+    right:0px;
+}
+.button2 {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+.button3 {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    left: 390px;
+    top: 10px;
+    
+}
+.date{
+    position: relative;
+    top: 10px;
+}

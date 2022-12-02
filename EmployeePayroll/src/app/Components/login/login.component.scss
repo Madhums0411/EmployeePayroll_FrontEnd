@@ -1,0 +1,47 @@
+
+.middlecontainer{
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px ;
+    margin-top: 5%;
+    margin-left: 32%;
+    margin-right: 32%;
+    border:1px solid rgb(189, 186, 186);
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.email{
+    width: 60vh;
+}
+.password{
+    width: 60vh;
+}
+.next{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Forgot{
+    border: 1px solid white;
+    width: 100%;
+    top: 10%;
+}
+.learn{
+    border: 1px solid white;
+    width: 100%;
+}
+.h2{
+    font-size: 16px;
+
+}
+.h1{
+    font-size: 20px;
+
+}
