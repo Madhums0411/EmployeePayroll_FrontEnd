@@ -1,0 +1,194 @@
+.maindiv {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+// border: 4px solid gainsboro;
+
+}
+.menu {
+  height: 100%;
+  width: 100%;
+ // border: 4px solid blue;
+// background-color: linen;
+  display: flex;
+  flex-direction: column;
+}
+.h1{
+  font-size: larger;
+  //font-weight: 500;
+ // padding-right: 20px;
+}
+.h2{
+  font-size: larger;
+ // font-weight: 500;
+}
+
+.middlecontainer{
+height: 80%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.innerdiv{
+height: 100%;
+width:80%;
+border: 3px solid gainsboro;
+}
+.line1{
+height: 70px;
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
+}
+.line2{
+  height: 9%;
+  width: 100%;
+  background: green;
+  display: flex;
+}
+.form1{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+}
+.t1{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+margin-left: 60px;
+}
+// .h3{
+//     font-size: large;
+//     font-weight: 500;
+// }
+.name1{
+  color: white;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+// padding-left: 70px;
+ 
+}
+.adduser{
+  color: white;
+  height: 35px;
+  width: 100px;
+  display: flex;
+  background: rgb(10, 117, 216);
+  align-items: center;
+  justify-content: center ;
+  border: 0px;
+  border-radius: 5px;
+  //margin-left: 1160px;
+  margin-bottom: 10px;
+}
+.profile{
+  height: 100%;
+  width: 35%;
+  display: flex;
+  border: 0px solid rgb(29, 185, 233);
+  border-radius: 2px;
+  align-items: center;
+
+}
+.userdetails{
+  height: 95%;
+ width:100%;
+  display: flex;
+  //background: blue;
+}
+.main{
+  height: 70px;
+  width: 1182px;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ flex-direction: row;
+
+}
+.profile{
+  height: 80%;
+  width: 13.8%;
+  border: 1px solid gainsboro;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.pic{
+  height: 35px;
+  width: 35px;
+  position: relative;
+  left: 10px;
+}
+.name{
+  height: 80%;
+  width: 13.8%;
+  border: 1px solid gainsboro;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.gender{
+  height: 80%;
+  width: 13.8%;
+  border: 1px solid gainsboro;
+  display: flex;
+ // background: red;
+ justify-content: flex-start;
+ align-items: center;
+
+}
+.depa{
+  height: 80%;
+  width: 13.8%;
+  border: 1px solid gainsboro;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+//  margin-right: 330px;
+}
+.salary{
+  height: 80%;
+  width: 13.8%;
+  border: 1px solid gainsboro;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.startdate{
+  height: 80%;
+  width: 13.8%;
+  border: 1px solid gainsboro;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.notes{
+  height: 80%;
+  width: 13.8%;
+  border: 1px solid gainsboro;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-around;
+}
+.delete{
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: space-between;
+ 
+}

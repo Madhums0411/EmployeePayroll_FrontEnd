@@ -12,6 +12,7 @@
 </div>
 <div class="middlecontainer" fxLayout="column" fxLayoutAlign="center center">
     <div class="innerdiv" fxLayout="row" fxLayoutAlign="center center">
+
         <div class="line1" fxLayout="row" fxLayoutAlign="center center">
 
             <div class="form1">
@@ -29,20 +30,20 @@
                 <span class="left1">Start Date</span>
                 <span class="left1">Notes</span>
             </div>
-            <form>
+            <form [formGroup]="createForm">
                 <div class="right">
                     <div class="right1">
                         <div class="g1" fxLayout="row" fxLayoutAlign="center stretch">
                             <mat-form-field appearance="outline" class="field6">
                                 <mat-label>Type your name here</mat-label>
-                                <input class="field2" matInput placeholder="type your name here">
+                                <input class="field2" matInput placeholder="type your name here" formControlName="name">
                             </mat-form-field>
                         </div>
                     </div>
                     <div class="right1">
-                        <div class="profile">
+                        <div class="profile" >
                             <div class="radio">
-                                <mat-radio-button name="radio"><img class="feild4" src="../../../assets/Ellipse -1.png"
+                                <mat-radio-button name="radio" ><img class="feild4" src="../../../assets/Ellipse -1.png"
                                         alt="">
                                 </mat-radio-button>
                             </div>
@@ -104,7 +105,7 @@
                             </mat-select>
                         </mat-form-field>
                     </form>
-                   
+
                     <form>
                         <div class="date">
                             <input type="date" id="date" name="date">
@@ -118,15 +119,16 @@
                                 <input class="field3" matInput>
                             </mat-form-field>
                         </div>
-                    </div>             
+                    </div>
 
                     <div class="notes1" fxLayout="row" fxLayoutAlign="space-evenly center">
                         <button mat-button class="button1">Cancel</button>
-                        <button mat-button class="button2">Submit</button>
+                        <button mat-button class="button2" (click)="submit()">Submit</button>
                         <button mat-button class="button3">Reset</button>
                     </div>
                 </div>
             </form>
         </div>
+
     </div>
 </div>

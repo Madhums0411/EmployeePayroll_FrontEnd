@@ -19,6 +19,8 @@ import { ResetpasswordComponent } from './Components/resetpassword/resetpassword
 import {MatSelectModule} from '@angular/material/select';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { EmployeedetailsComponent } from './Components/employeedetails/employeedetails.component';
+import {MatTableModule} from '@angular/material/table';
 
 
 
@@ -29,7 +31,8 @@ import { HttpClientModule } from '@angular/common/http';
     SigninComponent,
     LoginComponent,
     ForgotpasswordComponent,
-    ResetpasswordComponent
+    ResetpasswordComponent,
+    EmployeedetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +47,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatDatepickerModule,
     MatSelectModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
